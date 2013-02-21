@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{7b83ecaa-8c15-4bf1-bc09-e411629c7557}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{4cc48571-3596-4e69-8116-bbcf12c12da9}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{d8af881e-b0cb-4bac-9625-a871242919b9}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="win32\res\BlockMoverA.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Classes\DataTotal.txt" />
+    <None Include="Classes\DataTotal_1.txt" />
+    <None Include="Classes\DataTotal_2.txt" />
+    <None Include="Resources\DataTotal.txt" />
+    <None Include="Resources\retry.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\DiamondBlue.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\DiamondGreen.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\DiamondPurple.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\DiamondRed.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\DiamondRoseo.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\DiamondYellow.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="Resources\restart.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="win32\BlockMoverA.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="win32\resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="win32\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\HelloWorldScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameWinScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\GameOverScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\SharedData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\HomePageScene.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="win32\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\HelloWorldScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameOverScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\GameWinScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\HomePageScene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\SharedData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
